@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: 'pop';
 }
 @font-face {
@@ -289,7 +289,10 @@
 .main7{
     margin-top: 60px !important;
 }
-
+.cards{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
 
 
 
