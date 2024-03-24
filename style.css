@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 @font-face {
     font-family: 'great';
@@ -109,6 +110,79 @@
     text-align: center;
     color: white;
 }
+.breakfast{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.breakfastdiv{
+    width: 100%;
+}
+.breakfast-div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px !important;
+    
+}
+.grilled{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    color: #333333;
+}
+.para{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    color: #666666;
+}
+.aboutimg{
+    width: 70%;
+    height: 520px;
+}
+
+.flexwala{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.main2{
+    width: 100%;
+    margin-top: 80px !important;
+}
+
+
+
+
+
+
+@media screen and (min-width:772px) and (max-width:1400px) {
+    .grilled{
+        color: white;
+    }
+    .grilled1{
+        color: white;
+    }
+}
+@media screen and (min-width: 283px) and (max-width: 772px) {
+    .grilled1{
+        color: white;
+    }
+    .par{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 0px) and (max-width: 800px){
     .starter{
