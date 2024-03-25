@@ -338,9 +338,13 @@
     background: url(images/bg_3.jpg.webp);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 900px;
     padding-top: 60px;
     margin-top: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input-div{
     height: 660px;
@@ -351,6 +355,187 @@
 .birthdatheading{
     text-align: center !important;
 }
+.bookheading{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    position: absolute;
+    font-size: 70px;
+    color: #C8A97E;
+    font-family: 'great';
+}
+.make{
+    /* font-size: 40px; */
+    /* margin-top: 45px !important; */
+    font-weight: bolder;
+    padding-top: 40px !important;
+}
+.input-1 , .input-2{
+    padding-top: 30px !important;
+}
+.input-1 input , .input-2 input{
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 10px;
+}  
+.input-1 h4 , .input-2 h4{
+    margin-left: 10px;
+    font-weight: bolder;
+}  
+.input-3 , .input-4{
+    padding-top: 30px !important;
+}
+.input-3 input , .input-4 input{
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 10px;
+}  
+.input-3 h4 , .input-4 h4{
+    margin-left: 10px;
+    font-weight: bolder;
+}  
+.input-5 , .input-6{
+    padding-top: 30px !important;
+}
+.input-5 select , .input-6 select{
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 10px;
+}  
+.input-5 h4 , .input-6 h4{
+    margin-left: 20px;
+    font-weight: bolder;
+}  
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.reservation{
+    background-color: #C8A97E;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 80px;
+}
+.reservation:hover{
+    background-color: white;
+    color: #C8A97E;
+    border: 1px solid #C8A97E;
+}
+.testimnoy-div{
+    position: relative;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimony{
+    position: absolute;
+    color: #C8A97E;
+    font-family: 'great';
+    font-size: 70px;
+}
+.happy{
+    margin-top: 45px;
+    font-weight: bolder;
+}
+.flex{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    /* padding-right: 80px !important; */
+    padding-left: 470px;
+}
+.main11{
+    width: 100%;
+    margin-top: 90px !important;
+}
+.d{
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 14px;
+}
+.taste{
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.readmore{
+    margin-top: 40px;
+    padding-left: 15px;
+}
+.imge image{
+    width: 100%;
+    
+}
+.footer{
+    width: 100%;
+    background-color: #141313;
+    color: white;
+    padding-top: 130px;
+}
+.days{
+    display: flex;
+    justify-content: space-around;
+}
+.IMG img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+    .input-div{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .make{
+        font-size: 20px;
+    }
+    .a{
+        font-size: 40px;
+    }
+    .input-div{
+        height: 1000px ;
+    }
+    .main10{
+        height: 1200px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 985px) {
+    .input-div{
+        height: 1000px ;
+    }
+    .main10{
+        height: 1200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
