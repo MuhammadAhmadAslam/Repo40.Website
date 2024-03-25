@@ -493,8 +493,87 @@
 .IMG img{
     width: 100%;
 }
+.f1 h1{
+    font-size: 20px;
+}
+.f1 h5{
+    color: #FFFFFF83;
+    font-size: 14px;
+}
+.f2 h1{
+    font-size: 20px;
+    margin-bottom: 20px !important;
+}
+.f2 p{
+    color: #FFFFFF83;
+    font-size: 14px;
+    /* margin-top: 14px; */
+}
+.f3 h1{
+    font-size: 20px;
+}
+.f3 p{
+    color: #FFFFFF83;
+    font-size: 14px;
+}
+.f4 h1{
+    font-size: 20px;
+}
+.f4 p{
+    color: #FFFFFF83;
+    font-size: 14px;
+}
+.f4 input{
+    background-color: #FFFFFF1A;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+    font-size: 14px !important;
+    margin-left: 20px;
+}
+.f4 input::placeholder{
+    color: #FFFFFF83;
+    font-size: 15px;
+}
+.Subscribe{
+    background-color: #C8A97E;
+    color: white;
+    width: 150px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Subscribe:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #C8A97E;
+}
+.copyright{
+    color: #C8A97E;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 70px !important;
+    margin-bottom: 50px !important;
+}
+.footer{
+    margin-top: 180px !important;
+}
 
+.reservation{
+    margin-bottom: 30px !important;
+}
 
+.main5{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.f1,.f2,.f3,.f4{
+    margin-top: 30px !important;
+    padding-left: 20px !important;
+}
 
 
 
@@ -512,7 +591,7 @@
         font-size: 40px;
     }
     .input-div{
-        height: 1000px ;
+        height: 1100px ;
     }
     .main10{
         height: 1200px;
